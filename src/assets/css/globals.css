@@ -1,0 +1,38 @@
+@import 'tailwindcss';
+
+@font-face {
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/Public_Sans/PublicSans-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('../fonts/Public_Sans/PublicSans-Medium.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('../fonts/Public_Sans/PublicSans-SemiBold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../fonts/Public_Sans/PublicSans-Bold.woff2') format('woff2');
+}
+
+@theme {
+  --font-public-sans: 'Public Sans', sans-serif;
+  --breakpoint-laptop: 993px;
+}
